@@ -1,9 +1,11 @@
 package me.m64diamondstar.dialoguemaster.api;
 
+import me.m64diamondstar.dialoguemaster.api.commands.DMSubCommandRegistry;
 import me.m64diamondstar.dialoguemaster.api.handler.DMAPIHandler;
+import me.m64diamondstar.dialoguemaster.api.utils.DMMessageUtils;
 import org.jetbrains.annotations.NotNull;
 
-public class DialogueMasterAPI {
+public interface DialogueMasterAPI {
 
     /**
      * Gets the DialogueMasterAPI instance.
@@ -23,5 +25,18 @@ public class DialogueMasterAPI {
                     "If you're still having problems, please contact the plugin author!");
         }
     }
+
+    /**
+     * Gets the subcommand registry. This is used to register subcommands
+     * for the DialogueMaster command.
+     * @return The subcommand registry.
+     */
+    DMSubCommandRegistry getSubCommandRegistry();
+
+    /**
+     * Gets the message utils. This is used to send (prefixed) messages to players.
+     * @return The message utils.
+     */
+    DMMessageUtils getMessageUtils();
 
 }

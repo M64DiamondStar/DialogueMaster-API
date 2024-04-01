@@ -21,9 +21,8 @@ public interface DMSubCommand {
     /**
      * This is called when the subcommand is executed.
      * @param args The arguments of the subcommand.
-     * @return If the subcommand was executed successfully.
      */
-    boolean execute(Command command, CommandSender sender, String[] args);
+    void execute(Command command, CommandSender sender, String[] args);
 
     /**
      * This is called when the subcommand is tab completed.

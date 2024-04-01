@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "com.github.johnrengelman.shadow" version "8.1.1"
 }
 
 group = 'me.m64diamondstar'
@@ -20,6 +21,7 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation "net.kyori:adventure-api:4.16.0"
     compileOnly "org.spigotmc:spigot-api:1.20.4-R0.1-SNAPSHOT"
     compileOnly("org.realityforge.org.jetbrains.annotations:org.jetbrains.annotations:1.7.0")
 }
@@ -30,6 +32,16 @@ java {
     if (JavaVersion.current() < javaVersion) {
         toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
     }
+}
+
+shadowJar {
+    // Rename the jar file
+    archiveBaseName.set("DialogueMaster-API")
+    archiveClassifier.set('')
+    archiveVersion.set(project.version.toString())
+
+    // Include dependencies in the fat JAR
+    configurations = [project.configurations.shadow]
 }
 
 tasks.withType(JavaCompile).configureEach {
