@@ -3,7 +3,10 @@ package me.m64diamondstar.dialoguemaster.api;
 import me.m64diamondstar.dialoguemaster.api.commands.DMSubCommandRegistry;
 import me.m64diamondstar.dialoguemaster.api.handler.DMAPIHandler;
 import me.m64diamondstar.dialoguemaster.api.utils.DMMessageUtils;
+import me.m64diamondstar.dialoguemaster.api.utils.PluginHook;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
 
 public interface DialogueMasterAPI {
 
@@ -38,5 +41,11 @@ public interface DialogueMasterAPI {
      * @return The message utils.
      */
     DMMessageUtils getMessageUtils();
+
+    /**
+     * Gets a list of all the active plugin hooks: all the plugins that DialogueMaster can interact with.
+     * @return The list of active plugin hooks.
+     */
+    List<PluginHook> getActivePluginHooks();
 
 }
