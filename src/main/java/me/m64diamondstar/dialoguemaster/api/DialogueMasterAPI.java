@@ -20,7 +20,7 @@ public class DialogueMasterAPI {
             throw new IllegalStateException("DialogueMasterAPI is not initialized! " +
                     "This likely means that DialogueMaster hasn't loaded yet. " +
                     "Make sure that this plugin is loaded before the DialogueMaster plugin. " +
-                    "If you're still having problems, please contact the plugin author.");
+                    "If you're still having problems, please contact the plugin author!");
         }
     }
 
