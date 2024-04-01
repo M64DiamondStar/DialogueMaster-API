@@ -73,6 +73,18 @@ tasks.withType(JavaCompile).configureEach {
     }
 }
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'me.m64diamondstar'
+            artifactId = 'DialogueMaster-API'
+            version = '1.0-SNAPSHOT'
+
+            from components.java
+        }
+    }
+}
+
 test {
     useJUnitPlatform()
 }
