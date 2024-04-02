@@ -1,5 +1,7 @@
 package me.m64diamondstar.dialoguemaster.api.commands;
 
+import java.util.List;
+
 public interface DMSubCommandRegistry {
 
     /**
@@ -13,5 +15,7 @@ public interface DMSubCommandRegistry {
      * @param subCommand The subcommand to unregister.
      */
     void unregisterSubCommand(DMSubCommand subCommand);
+
+    List<DMSubCommand> getRegisteredSubCommands();
 
 }

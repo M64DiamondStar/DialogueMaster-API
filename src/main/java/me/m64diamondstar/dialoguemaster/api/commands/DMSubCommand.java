@@ -19,6 +19,13 @@ public interface DMSubCommand {
     String getDescription();
 
     /**
+     * The usage of the subcommand.
+     * Please use the official command syntax for this. Here are some examples:
+     * /dm example &lt;necessary variable&gt; [optional variable]
+     */
+    String getUsage();
+
+    /**
      * This is called when the subcommand is executed.
      * @param args The arguments of the subcommand.
      */
