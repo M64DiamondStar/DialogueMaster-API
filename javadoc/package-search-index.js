@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"me.m64diamondstar.dialoguemaster.api"},{"l":"me.m64diamondstar.dialoguemaster.api.commands"},{"l":"me.m64diamondstar.dialoguemaster.api.events"},{"l":"me.m64diamondstar.dialoguemaster.api.handler"},{"l":"me.m64diamondstar.dialoguemaster.api.utils"}];updateSearchResults();
