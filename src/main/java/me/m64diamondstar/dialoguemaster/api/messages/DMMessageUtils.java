@@ -103,7 +103,7 @@ public interface DMMessageUtils {
      * @param messageNode The message node to send to the player. The message node is the path to the message in the messages.yml.
      *                    For example "example.message"
      * @param placeholders The placeholders of the message. This is a list of {@link Pair}s with the placeholder as key and the replacement as value.
-     *                     For example if you want to send a message like "Hello {player}!", you would use {@code List.of(new Pair("{player}", player.getName()))}
+     *                     For example if you want to send a message like "Hello {PLAYER}!", you would use {@code List.of(new Pair("{player}", player.getName()))}
      */
     void sendConfigurableMessage(@NotNull Player player, @NotNull String messageNode, @NotNull List<Pair<String, String>> placeholders);
 
@@ -114,7 +114,7 @@ public interface DMMessageUtils {
      * @param messageNode The message node to send to the player. The message node is the path to the message in the messages.yml.
      *                    For example "example.message"
      * @param placeholders The placeholders of the message. This is a list of {@link Pair}s with the placeholder as key and the replacement as value.
-     *                     For example if you want to send a message like "Hello {player}!", you would use {@code List.of(new Pair("{player}", player.getName()))}
+     *                     For example if you want to send a message like "Hello {PLAYER}!", you would use {@code List.of(new Pair("{player}", player.getName()))}
      */
     void sendConfigurableMessage(@NotNull CommandSender sender, @NotNull String messageNode, @NotNull List<Pair<String, String>> placeholders);
 
@@ -125,7 +125,7 @@ public interface DMMessageUtils {
      * @param messageNode The message node to send to the player. The message node is the path to the message in the messages.yml.
      *                    For example "example.message"
      * @param placeholders The placeholders of the message. This is a list of {@link Pair}s with the placeholder as key and the replacement as value.
-     *                     For example if you want to send a message like "Hello {player}!", you would use {@code List.of(new Pair("{player}", player.getName()))}
+     *                     For example if you want to send a message like "Hello {PLAYER}!", you would use {@code List.of(new Pair("{player}", player.getName()))}
      */
     void sendConfigurableMessage(@NotNull Audience audience, @NotNull String messageNode, @NotNull List<Pair<String, String>> placeholders);
 
