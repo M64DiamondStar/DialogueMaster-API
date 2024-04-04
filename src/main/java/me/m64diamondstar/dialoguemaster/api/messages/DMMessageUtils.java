@@ -34,6 +34,10 @@ public interface DMMessageUtils {
      */
     String getPrefixString();
 
+    /**
+     * Gets the short prefix string of the plugin without deserialization.
+     * @return The short prefix string of the plugin.
+     */
     String getShortPrefixString();
 
     /**
