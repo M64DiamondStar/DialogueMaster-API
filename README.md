@@ -1,2 +1,3 @@
+![Banner](https://imgur.com/9nTfo4o.png)
 # Project is still in development...
 [![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://M64DiamondStar.github.io/DialogueMaster-API/javadoc/)
