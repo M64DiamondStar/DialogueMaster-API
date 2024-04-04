@@ -7,6 +7,7 @@ import org.bukkit.entity.Player;
 
 /**
  * This class is used to send messages to players. You can for example send prefixed messages with this.
+ * Please use the {@link me.m64diamondstar.dialoguemaster.api.DialogueMasterAPI#getMessageUtils()} method to get the message utils.
  */
 public interface DMMessageUtils {
 
@@ -104,7 +105,16 @@ public interface DMMessageUtils {
             }
         };
 
+        /**
+         * Gets the HEX value of the color
+         * @return The HEX value as a {@link String}.
+         */
         public abstract String getHex();
+
+        /**
+         * Gets the TextColor of the color
+         * @return The {@link net.kyori.adventure.text.format.TextColor} value.
+         */
         public TextColor getTextColor(){
             return TextColor.fromHexString(getHex());
         }
