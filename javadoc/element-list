@@ -5,3 +5,4 @@ me.m64diamondstar.dialoguemaster.api.design.font
 me.m64diamondstar.dialoguemaster.api.events
 me.m64diamondstar.dialoguemaster.api.handler
 me.m64diamondstar.dialoguemaster.api.utils
+me.m64diamondstar.dialoguemaster.api.utils.exceptions
