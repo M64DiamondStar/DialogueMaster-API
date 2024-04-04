@@ -2,7 +2,7 @@ package me.m64diamondstar.dialoguemaster.api;
 
 import me.m64diamondstar.dialoguemaster.api.commands.DMSubCommandRegistry;
 import me.m64diamondstar.dialoguemaster.api.handler.DMAPIHandler;
-import me.m64diamondstar.dialoguemaster.api.utils.DMMessageUtils;
+import me.m64diamondstar.dialoguemaster.api.messages.DMMessageUtils;
 import me.m64diamondstar.dialoguemaster.api.utils.PluginHook;
 import org.jetbrains.annotations.NotNull;
 
