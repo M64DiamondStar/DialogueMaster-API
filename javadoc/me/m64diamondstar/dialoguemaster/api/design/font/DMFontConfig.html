@@ -116,7 +116,7 @@ loadScripts(document, 'script');</script>
 <div class="block">Gets the vertical shift of the font.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setFamily(java.lang.String)" class="member-name-link">setFamily</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;family)</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setFamily(java.lang.String)" class="member-name-link">setFamily</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;family)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Sets the family of the font.</div>
 </div>
@@ -124,18 +124,23 @@ loadScripts(document, 'script');</script>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setLineSpacing(float)" class="member-name-link">setLineSpacing</a><wbr>(float&nbsp;lineSpacing)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">&nbsp;</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setOversample(int)" class="member-name-link">setOversample</a><wbr>(int&nbsp;oversample)</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setName(java.lang.String)" class="member-name-link">setName</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
-<div class="block">Sets the oversample of the font.</div>
+<div class="block">Sets the name of the font configuration.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setSize(int)" class="member-name-link">setSize</a><wbr>(int&nbsp;size)</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setOversample(int)" class="member-name-link">setOversample</a><wbr>(int&nbsp;oversample)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
-<div class="block">Sets the size of the font.</div>
+<div class="block">Sets the oversample of the font.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setVerticalShift(float)" class="member-name-link">setVerticalShift</a><wbr>(float&nbsp;verticalShift)</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setSize(int)" class="member-name-link">setSize</a><wbr>(int&nbsp;size)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Sets the size of the font.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#setVerticalShift(float)" class="member-name-link">setVerticalShift</a><wbr>(float&nbsp;verticalShift)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Sets the vertical shift of the font.</div>
 </div>
 </div>
@@ -164,6 +169,18 @@ loadScripts(document, 'script');</script>
 </section>
 </li>
 <li>
+<section class="detail" id="setName(java.lang.String)">
+<h3>setName</h3>
+<div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setName</span><wbr><span class="parameters">(@NotNull
+ @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
+<div class="block">Sets the name of the font configuration.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>name</code> - The name of the font configuration.</dd>
+</dl>
+</section>
+</li>
+<li>
 <section class="detail" id="getFamily()">
 <h3>getFamily</h3>
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getFamily</span>()</div>
@@ -177,13 +194,14 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="setFamily(java.lang.String)">
 <h3>setFamily</h3>
-<div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setFamily</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;family)</span></div>
+<div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setFamily</span><wbr><span class="parameters">(@NotNull
+ @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;family)</span></div>
 <div class="block">Sets the family of the font. The default Minecraft font is called "default",
  but you can also import other fonts by putting them inside the "import/font" folder
  inside the DialogueMaster plugin folder.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>family</code> - </dd>
+<dd><code>family</code> - The family of the font.</dd>
 </dl>
 </section>
 </li>
@@ -191,7 +209,7 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="getSize()">
 <h3>getSize</h3>
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getSize</span>()</div>
-<div class="block">Gets the size of the font.</div>
+<div class="block">Gets the size of the font. Defaults to 12.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The size of the font.</dd>
@@ -213,7 +231,7 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="getOversample()">
 <h3>getOversample</h3>
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getOversample</span>()</div>
-<div class="block">Gets the oversample of the font. This is the quality at which it renders the font.</div>
+<div class="block">Gets the oversample of the font. This is the quality at which it renders the font. Defaults to 16.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The oversample of the font.</dd>

@@ -52,8 +52,11 @@ loadScripts(document, 'script');</script>
 <ul class="horizontal">
 <li><a href="me/m64diamondstar/dialoguemaster/api/package-tree.html">me.m64diamondstar.dialoguemaster.api</a>, </li>
 <li><a href="me/m64diamondstar/dialoguemaster/api/commands/package-tree.html">me.m64diamondstar.dialoguemaster.api.commands</a>, </li>
+<li><a href="me/m64diamondstar/dialoguemaster/api/conversation/package-tree.html">me.m64diamondstar.dialoguemaster.api.conversation</a>, </li>
+<li><a href="me/m64diamondstar/dialoguemaster/api/conversation/additions/package-tree.html">me.m64diamondstar.dialoguemaster.api.conversation.additions</a>, </li>
 <li><a href="me/m64diamondstar/dialoguemaster/api/design/package-tree.html">me.m64diamondstar.dialoguemaster.api.design</a>, </li>
 <li><a href="me/m64diamondstar/dialoguemaster/api/design/font/package-tree.html">me.m64diamondstar.dialoguemaster.api.design.font</a>, </li>
+<li><a href="me/m64diamondstar/dialoguemaster/api/design/imports/package-tree.html">me.m64diamondstar.dialoguemaster.api.design.imports</a>, </li>
 <li><a href="me/m64diamondstar/dialoguemaster/api/handler/package-tree.html">me.m64diamondstar.dialoguemaster.api.handler</a>, </li>
 <li><a href="me/m64diamondstar/dialoguemaster/api/messages/package-tree.html">me.m64diamondstar.dialoguemaster.api.messages</a>, </li>
 <li><a href="me/m64diamondstar/dialoguemaster/api/utils/package-tree.html">me.m64diamondstar.dialoguemaster.api.utils</a>, </li>
@@ -75,6 +78,7 @@ loadScripts(document, 'script');</script>
 <ul>
 <li class="circle">java.lang.<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Exception.html" class="type-name-link external-link" title="class or interface in java.lang">Exception</a>
 <ul>
+<li class="circle">me.m64diamondstar.dialoguemaster.api.utils.exceptions.<a href="me/m64diamondstar/dialoguemaster/api/utils/exceptions/InvalidImageUrlException.html" class="type-name-link" title="class in me.m64diamondstar.dialoguemaster.api.utils.exceptions">InvalidImageUrlException</a></li>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.utils.exceptions.<a href="me/m64diamondstar/dialoguemaster/api/utils/exceptions/ResourcepackGenerateException.html" class="type-name-link" title="class in me.m64diamondstar.dialoguemaster.api.utils.exceptions">ResourcepackGenerateException</a></li>
 </ul>
 </li>
@@ -88,8 +92,14 @@ loadScripts(document, 'script');</script>
 <h2 title="Interface Hierarchy">Interface Hierarchy</h2>
 <ul>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.<a href="me/m64diamondstar/dialoguemaster/api/DialogueMasterAPI.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api">DialogueMasterAPI</a></li>
+<li class="circle">me.m64diamondstar.dialoguemaster.api.conversation.<a href="me/m64diamondstar/dialoguemaster/api/conversation/DMConversation.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.conversation">DMConversation</a></li>
+<li class="circle">me.m64diamondstar.dialoguemaster.api.conversation.additions.<a href="me/m64diamondstar/dialoguemaster/api/conversation/additions/DMConversationAction.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.conversation.additions">DMConversationAction</a></li>
+<li class="circle">me.m64diamondstar.dialoguemaster.api.conversation.additions.<a href="me/m64diamondstar/dialoguemaster/api/conversation/additions/DMConversationOption.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.conversation.additions">DMConversationOption</a></li>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></li>
+<li class="circle">me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></li>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></li>
+<li class="circle">me.m64diamondstar.dialoguemaster.api.design.imports.<a href="me/m64diamondstar/dialoguemaster/api/design/imports/DMImportedFont.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedFont</a></li>
+<li class="circle">me.m64diamondstar.dialoguemaster.api.design.imports.<a href="me/m64diamondstar/dialoguemaster/api/design/imports/DMImportedWidget.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedWidget</a></li>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.messages.<a href="me/m64diamondstar/dialoguemaster/api/messages/DMMessageUtils.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.messages">DMMessageUtils</a></li>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.commands.<a href="me/m64diamondstar/dialoguemaster/api/commands/DMSubCommand.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.commands">DMSubCommand</a></li>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.commands.<a href="me/m64diamondstar/dialoguemaster/api/commands/DMSubCommandRegistry.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.commands">DMSubCommandRegistry</a></li>
@@ -104,6 +114,7 @@ loadScripts(document, 'script');</script>
 <ul>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.messages.<a href="me/m64diamondstar/dialoguemaster/api/messages/DMMessageUtils.Color.html" class="type-name-link" title="enum class in me.m64diamondstar.dialoguemaster.api.messages">DMMessageUtils.Color</a></li>
 <li class="circle">me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/PluginHook.html" class="type-name-link" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">PluginHook</a></li>
+<li class="circle">me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/ServerVersion.html" class="type-name-link" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">ServerVersion</a></li>
 </ul>
 </li>
 </ul>

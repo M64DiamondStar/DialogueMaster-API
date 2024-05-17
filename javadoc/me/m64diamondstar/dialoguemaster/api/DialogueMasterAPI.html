@@ -92,15 +92,25 @@ loadScripts(document, 'script');</script>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Gets a list of all the active plugin hooks: all the plugins that DialogueMaster can interact with.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab1"><code>static @NotNull <a href="DialogueMasterAPI.html" title="interface in me.m64diamondstar.dialoguemaster.api">DialogueMasterAPI</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab1"><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab1">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="design/DMDesignManager.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getDesignManager()" class="member-name-link">getDesignManager</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Gets the design manager, with this class you can create, edit and delete designs, font configurations and widgets.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1"><code>static @NotNull <a href="DialogueMasterAPI.html" title="interface in me.m64diamondstar.dialoguemaster.api">DialogueMasterAPI</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1"><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1">
 <div class="block">Gets the DialogueMasterAPI instance.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="messages/DMMessageUtils.html" title="interface in me.m64diamondstar.dialoguemaster.api.messages">DMMessageUtils</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getMessageUtils()" class="member-name-link">getMessageUtils</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="messages/DMMessageUtils.html" title="interface in me.m64diamondstar.dialoguemaster.api.messages">DMMessageUtils</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getMessageUtils()" class="member-name-link">getMessageUtils</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Gets the message utils.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="utils/ServerVersion.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">ServerVersion</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getServerVersion()" class="member-name-link">getServerVersion</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Gets the minecraft version the server is running on</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="commands/DMSubCommandRegistry.html" title="interface in me.m64diamondstar.dialoguemaster.api.commands">DMSubCommandRegistry</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getSubCommandRegistry()" class="member-name-link">getSubCommandRegistry</a>()</code></div>
@@ -159,6 +169,17 @@ loadScripts(document, 'script');</script>
 </section>
 </li>
 <li>
+<section class="detail" id="getDesignManager()">
+<h3>getDesignManager</h3>
+<div class="member-signature"><span class="return-type"><a href="design/DMDesignManager.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></span>&nbsp;<span class="element-name">getDesignManager</span>()</div>
+<div class="block">Gets the design manager, with this class you can create, edit and delete designs, font configurations and widgets.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>The design manager</dd>
+</dl>
+</section>
+</li>
+<li>
 <section class="detail" id="getActivePluginHooks()">
 <h3>getActivePluginHooks</h3>
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="utils/PluginHook.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">PluginHook</a>&gt;</span>&nbsp;<span class="element-name">getActivePluginHooks</span>()</div>
@@ -167,6 +188,13 @@ loadScripts(document, 'script');</script>
 <dt>Returns:</dt>
 <dd>The list of active plugin hooks.</dd>
 </dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getServerVersion()">
+<h3>getServerVersion</h3>
+<div class="member-signature"><span class="return-type"><a href="utils/ServerVersion.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">ServerVersion</a></span>&nbsp;<span class="element-name">getServerVersion</span>()</div>
+<div class="block">Gets the minecraft version the server is running on</div>
 </section>
 </li>
 </ul>
