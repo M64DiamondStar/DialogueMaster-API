@@ -1,8 +1,10 @@
 package me.m64diamondstar.dialoguemaster.api;
 
 import me.m64diamondstar.dialoguemaster.api.commands.DMSubCommandRegistry;
+import me.m64diamondstar.dialoguemaster.api.design.DMDesignManager;
 import me.m64diamondstar.dialoguemaster.api.handler.DMAPIHandler;
 import me.m64diamondstar.dialoguemaster.api.messages.DMMessageUtils;
+import me.m64diamondstar.dialoguemaster.api.utils.ServerVersion;
 import me.m64diamondstar.dialoguemaster.api.utils.PluginHook;
 import org.jetbrains.annotations.NotNull;
 
@@ -43,9 +45,20 @@ public interface DialogueMasterAPI {
     DMMessageUtils getMessageUtils();
 
     /**
+     * Gets the design manager, with this class you can create, edit and delete designs, font configurations and widgets.
+     * @return The design manager
+     */
+    DMDesignManager getDesignManager();
+
+    /**
      * Gets a list of all the active plugin hooks: all the plugins that DialogueMaster can interact with.
      * @return The list of active plugin hooks.
      */
     List<PluginHook> getActivePluginHooks();
+
+    /**
+     * Gets the minecraft version the server is running on
+     */
+    ServerVersion getServerVersion();
 
 }

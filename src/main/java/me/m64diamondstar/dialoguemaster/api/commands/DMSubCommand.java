@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * The interface needed to create a subcommand for the DialogueMaster command.
- * Implement this interface and add it to the {@link me.m64diamondstar.dialoguemaster.api.commands.DMSubCommandRegistry} to create your own subcommand.
+ * Implement this interface and add it to the {@link DMSubCommandRegistry} to create your own subcommand.
  */
 public interface DMSubCommand {
 

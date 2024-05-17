@@ -1,5 +1,7 @@
 package me.m64diamondstar.dialoguemaster.api.design.font;
 
+import org.jetbrains.annotations.NotNull;
+
 public interface DMFontConfig {
 
     /**
@@ -7,6 +9,12 @@ public interface DMFontConfig {
      * @return The name of the font configuration.
      */
     String getName();
+
+    /**
+     * Sets the name of the font configuration.
+     * @param name The name of the font configuration.
+     */
+    void setName(@NotNull String name);
 
     /**
      * Gets the family of the font. If the font is not found, it will use the default font.
@@ -18,12 +26,12 @@ public interface DMFontConfig {
      * Sets the family of the font. The default Minecraft font is called "default",
      * but you can also import other fonts by putting them inside the "import/font" folder
      * inside the DialogueMaster plugin folder.
-     * @param family
+     * @param family The family of the font.
      */
-    void setFamily(String family);
+    void setFamily(@NotNull String family);
 
     /**
-     * Gets the size of the font.
+     * Gets the size of the font. Defaults to 12.
      * @return The size of the font.
      */
     int getSize();
@@ -36,7 +44,7 @@ public interface DMFontConfig {
     void setSize(int size);
 
     /**
-     * Gets the oversample of the font. This is the quality at which it renders the font.
+     * Gets the oversample of the font. This is the quality at which it renders the font. Defaults to 16.
      * @return The oversample of the font.
      */
     int getOversample();
