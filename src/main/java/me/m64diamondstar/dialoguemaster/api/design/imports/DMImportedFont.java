@@ -4,6 +4,9 @@ import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 
+/**
+ * Represents a font imported through the import/fonts folder inside the plugin's folder.
+ */
 public interface DMImportedFont {
 
     /**

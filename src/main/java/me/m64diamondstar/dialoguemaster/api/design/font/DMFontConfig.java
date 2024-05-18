@@ -2,6 +2,11 @@ package me.m64diamondstar.dialoguemaster.api.design.font;
 
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * Represents a font configuration. This is used to configure the appearance of the
+ * font like the family, size, line spacing, ...
+ * @see me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedFont to use custom imported fonts!
+ */
 public interface DMFontConfig {
 
     /**
@@ -24,7 +29,7 @@ public interface DMFontConfig {
 
     /**
      * Sets the family of the font. The default Minecraft font is called "default",
-     * but you can also import other fonts by putting them inside the "import/font" folder
+     * but you can also import other fonts by putting them inside the "import/fonts" folder
      * inside the DialogueMaster plugin folder.
      * @param family The family of the font.
      */

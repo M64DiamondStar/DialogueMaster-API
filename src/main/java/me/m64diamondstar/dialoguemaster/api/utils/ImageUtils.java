@@ -8,6 +8,9 @@ import java.net.URL;
 import java.util.Iterator;
 import java.util.Objects;
 
+/**
+ * Utilities for images. Primarily used for importing widgets.
+ */
 public class ImageUtils {
 
     /**

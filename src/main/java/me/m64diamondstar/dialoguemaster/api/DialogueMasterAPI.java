@@ -11,6 +11,9 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 import java.util.logging.Logger;
 
+/**
+ * The main API class, most of the methods can be controlled from here.
+ */
 public interface DialogueMasterAPI {
 
     /**

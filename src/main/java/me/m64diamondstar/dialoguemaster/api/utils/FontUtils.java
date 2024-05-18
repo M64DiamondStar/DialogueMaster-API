@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
+/**
+ * Utilities for fonts. Primarily used for importing fonts.
+ */
 public class FontUtils {
 
     /**

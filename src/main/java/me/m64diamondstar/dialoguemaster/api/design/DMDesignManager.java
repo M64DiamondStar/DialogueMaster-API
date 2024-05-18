@@ -11,7 +11,12 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 /**
- * With this class you can create, edit and delete designs, font configurations and widgets.
+ * With this class you can create, edit and delete designs,
+ * font configurations, imported fonts and widgets.
+ * @see DMDesign
+ * @see DMFontConfig
+ * @see DMImportedFont
+ * @see DMImportedWidget
  */
 public interface DMDesignManager {
 

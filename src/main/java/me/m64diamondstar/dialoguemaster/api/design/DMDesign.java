@@ -3,6 +3,9 @@ package me.m64diamondstar.dialoguemaster.api.design;
 import me.m64diamondstar.dialoguemaster.api.design.font.DMFontConfig;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * Represents a full dialogue design. (The visual part at least)
+ */
 public interface DMDesign {
 
     /**

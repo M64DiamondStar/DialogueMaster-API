@@ -1,5 +1,8 @@
 package me.m64diamondstar.dialoguemaster.api.utils;
 
+/**
+ * All the plugins that DialogueMaster supports.
+ */
 public enum PluginHook {
 
     PLACEHOLDERAPI{
