@@ -9,6 +9,7 @@ import me.m64diamondstar.dialoguemaster.api.utils.PluginHook;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 public interface DialogueMasterAPI {
 
@@ -57,8 +58,13 @@ public interface DialogueMasterAPI {
     List<PluginHook> getActivePluginHooks();
 
     /**
-     * Gets the minecraft version the server is running on
+     * Gets the minecraft version the server is running on.
      */
     ServerVersion getServerVersion();
+
+    /**
+     * Gets the plugin's logger.
+     */
+    Logger getPluginLogger();
 
 }

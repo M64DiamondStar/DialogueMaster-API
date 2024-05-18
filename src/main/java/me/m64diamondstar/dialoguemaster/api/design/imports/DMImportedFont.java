@@ -7,15 +7,15 @@ import java.io.File;
 public interface DMImportedFont {
 
     /**
-     * @return The name of the image.
+     * @return The name of the font.
      */
     String getName();
 
     /**
      * Sets the name of the image.
-     * @param name The name of the image.
+     * @param path the new path and name of the font. For example "example_folder/example"
      */
-    void setName(@NotNull String name);
+    boolean setPath(@NotNull String path);
 
     /**
      * @return The file of the image.

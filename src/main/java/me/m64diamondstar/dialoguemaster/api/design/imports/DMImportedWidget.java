@@ -16,9 +16,9 @@ public interface DMImportedWidget {
 
     /**
      * Sets the name of the image.
-     * @param name The name of the image.
+     * @param path the new path and name of the image. For example "example_folder/example"
      */
-    void setName(@NotNull String name);
+    boolean setPath(@NotNull String path);
 
     /**
      * @return The file of the image.
