@@ -98,16 +98,27 @@ loadScripts(document, 'script');</script>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Creates a new font configuration with a specific name.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="imports/DMImportedWidget.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedWidget</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#createWidgetFromURL(java.lang.String,java.lang.String)" class="member-name-link">createWidgetFromURL</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path,
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="imports/DMImportedFont.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedFont</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#createFontFromURL(java.lang.String,java.lang.String)" class="member-name-link">createFontFromURL</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path,
  @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;url)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Creates a new widget with a specific name from an url.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>boolean</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#deleteDesign(java.lang.String)" class="member-name-link">deleteDesign</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="imports/DMImportedWidget.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedWidget</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#createWidgetFromURL(java.lang.String,java.lang.String)" class="member-name-link">createWidgetFromURL</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path,
+ @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;url)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Creates a new widget with a specific name from an url.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>boolean</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#deleteDesign(java.lang.String)" class="member-name-link">deleteDesign</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Deletes a design with a specific name.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>boolean</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#deleteFont(java.lang.String)" class="member-name-link">deleteFont</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Deletes a font with a specific name.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>boolean</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#deleteFontConfig(java.lang.String)" class="member-name-link">deleteFontConfig</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
@@ -125,29 +136,49 @@ loadScripts(document, 'script');</script>
 <div class="block">Checks if a design with a specific name exists.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>boolean</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#existsFontConfig(java.lang.String)" class="member-name-link">existsFontConfig</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#existsFont(java.lang.String)" class="member-name-link">existsFont</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
-<div class="block">Checks if a font configuration with a specific name exists.</div>
+<div class="block">Checks if a font with a specific name exists.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>boolean</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#existsWidget(java.lang.String)" class="member-name-link">existsWidget</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#existsFontConfig(java.lang.String)" class="member-name-link">existsFontConfig</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Checks if a font configuration with a specific name exists.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>boolean</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#existsWidget(java.lang.String)" class="member-name-link">existsWidget</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Checks if a widget with a specific name exists.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getDesign(java.lang.String)" class="member-name-link">getDesign</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getDesign(java.lang.String)" class="member-name-link">getDesign</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Gets a design with a specific name.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="imports/DMImportedFont.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedFont</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFont(java.lang.String)" class="member-name-link">getFont</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Gets a font with a specific name.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFontConfig(java.lang.String)" class="member-name-link">getFontConfig</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Gets a font configuration with a specific name.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="imports/DMImportedWidget.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedWidget</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getWidget(java.lang.String)" class="member-name-link">getWidget</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFontPaths()" class="member-name-link">getFontPaths</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Gets a list of all font paths.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="imports/DMImportedWidget.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedWidget</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getWidget(java.lang.String)" class="member-name-link">getWidget</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Gets a widget with a specific name.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getWidgetPaths()" class="member-name-link">getWidgetPaths</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Gets a list of all widget paths.</div>
 </div>
 </div>
 </div>
@@ -197,7 +228,8 @@ loadScripts(document, 'script');</script>
 <h3>createDesign</h3>
 <div class="member-signature"><span class="return-type"><a href="DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></span>&nbsp;<span class="element-name">createDesign</span><wbr><span class="parameters">(@NotNull
  @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Creates a new design with a specific name.</div>
+<div class="block">Creates a new design with a specific name.
+ If a design with this name already exists it will be overwritten!</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - The name of the design.</dd>
@@ -257,7 +289,10 @@ loadScripts(document, 'script');</script>
  @NotNull
  @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;url)</span>
                               throws <span class="exceptions"><a href="../utils/exceptions/InvalidImageUrlException.html" title="class in me.m64diamondstar.dialoguemaster.api.utils.exceptions">InvalidImageUrlException</a></span></div>
-<div class="block">Creates a new widget with a specific name from an url.</div>
+<div class="block">Creates a new widget with a specific name from an url.
+ Instead of catching an exception, you can use the method
+ <a href="../utils/ImageUtils.html#isValidImage(java.lang.String)"><code>ImageUtils.isValidImage(String)</code></a> to check if the image is valid.
+ If a widget with this path already exists it will be overwritten!</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>path</code> - The path to the widget file.</dd>
@@ -280,6 +315,94 @@ loadScripts(document, 'script');</script>
 <dd><code>name</code> - The name of the widget.</dd>
 <dt>Returns:</dt>
 <dd>True if the widget was successfully deleted, false otherwise.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getWidgetPaths()">
+<h3>getWidgetPaths</h3>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</span>&nbsp;<span class="element-name">getWidgetPaths</span>()</div>
+<div class="block">Gets a list of all widget paths.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>A list of all widget paths.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getFont(java.lang.String)">
+<h3>getFont</h3>
+<div class="member-signature"><span class="annotations">@Nullable
+</span><span class="return-type"><a href="imports/DMImportedFont.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedFont</a></span>&nbsp;<span class="element-name">getFont</span><wbr><span class="parameters">(@NotNull
+ @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</span></div>
+<div class="block">Gets a font with a specific name.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>path</code> - The name of the font.</dd>
+<dt>Returns:</dt>
+<dd>The font with the given name.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="existsFont(java.lang.String)">
+<h3>existsFont</h3>
+<div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">existsFont</span><wbr><span class="parameters">(@NotNull
+ @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</span></div>
+<div class="block">Checks if a font with a specific name exists.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>path</code> - The name of the font.</dd>
+<dt>Returns:</dt>
+<dd>True if the font exists, false otherwise.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="createFontFromURL(java.lang.String,java.lang.String)">
+<h3>createFontFromURL</h3>
+<div class="member-signature"><span class="return-type"><a href="imports/DMImportedFont.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedFont</a></span>&nbsp;<span class="element-name">createFontFromURL</span><wbr><span class="parameters">(@NotNull
+ @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path,
+ @NotNull
+ @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;url)</span>
+                          throws <span class="exceptions"><a href="../utils/exceptions/InvalidFontUrlException.html" title="class in me.m64diamondstar.dialoguemaster.api.utils.exceptions">InvalidFontUrlException</a></span></div>
+<div class="block">Creates a new widget with a specific name from an url.
+ Instead of catching an exception, you can use the method
+ <a href="../utils/FontUtils.html#isValidFont(java.lang.String)"><code>FontUtils.isValidFont(String)</code></a> to check if the font is valid.
+ If a font with this path already exists it will be overwritten!</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>path</code> - The path to the font file.</dd>
+<dd><code>url</code> - The url of the font.</dd>
+<dt>Returns:</dt>
+<dd>The font with the given name.</dd>
+<dt>Throws:</dt>
+<dd><code><a href="../utils/exceptions/InvalidFontUrlException.html" title="class in me.m64diamondstar.dialoguemaster.api.utils.exceptions">InvalidFontUrlException</a></code> - If the url is invalid.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="deleteFont(java.lang.String)">
+<h3>deleteFont</h3>
+<div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">deleteFont</span><wbr><span class="parameters">(@NotNull
+ @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
+<div class="block">Deletes a font with a specific name.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>name</code> - The name of the font.</dd>
+<dt>Returns:</dt>
+<dd>True if the font was successfully deleted, false otherwise.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getFontPaths()">
+<h3>getFontPaths</h3>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</span>&nbsp;<span class="element-name">getFontPaths</span>()</div>
+<div class="block">Gets a list of all font paths.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>A list of all font paths.</dd>
 </dl>
 </section>
 </li>
@@ -317,7 +440,8 @@ loadScripts(document, 'script');</script>
 <h3>createFontConfig</h3>
 <div class="member-signature"><span class="return-type"><a href="font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></span>&nbsp;<span class="element-name">createFontConfig</span><wbr><span class="parameters">(@NotNull
  @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Creates a new font configuration with a specific name.</div>
+<div class="block">Creates a new font configuration with a specific name.
+ If a font config with this name already exists it will be overwritten!</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - The name of the font configuration.</dd>
