@@ -1,11 +1,12 @@
-package me.m64diamondstar.dialoguemaster.api.design.font;
+package me.m64diamondstar.dialoguemaster.api.design;
 
+import me.m64diamondstar.dialoguemaster.api.utils.TextAlignment;
 import org.jetbrains.annotations.NotNull;
 
 /**
  * Represents a font configuration. This is used to configure the appearance of the
  * font like the family, size, line spacing, ...
- * @see me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedFont to use custom imported fonts!
+ * @see me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedFont The DMImportedFont class to use custom imported fonts!
  */
 public interface DMFontConfig {
 
@@ -13,6 +14,7 @@ public interface DMFontConfig {
      * Gets the name of this font configuration.
      * @return The name of the font configuration.
      */
+    @NotNull
     String getName();
 
     /**
@@ -61,19 +63,66 @@ public interface DMFontConfig {
     void setOversample(int oversample);
 
     /**
-     * Gets the vertical shift of the font.
+     * Gets the vertical shift of the font. This is the vertical shift of the first line.
+     * The other lines will be determined by this value plus x times the line spacing.
      * @return The vertical shift of the font.
      */
     float getVerticalShift();
 
     /**
-     * Sets the vertical shift of the font.
+     * Sets the vertical shift of the font.This is the vertical shift of the first line.
+     * The other lines will be determined by this value plus x times the line spacing.
      * @param verticalShift The vertical shift of the font.
      */
     void setVerticalShift(float verticalShift);
 
+    /**
+     * Gets the line spacing of the font.
+     * @return The line spacing of the font.
+     */
     float getLineSpacing();
 
+    /**
+     * Sets the line spacing of the font.
+     * @param lineSpacing The line spacing of the font.
+     */
     void setLineSpacing(float lineSpacing);
+
+    /**
+     * Gets the max lines of the font.
+     * @return The max lines of the font.
+     */
+    int getMaxLines();
+
+    /**
+     * Sets the max lines of the font. Defaults to 5.
+     * @param maxLines The max lines of the font.
+     */
+    void setMaxLines(int maxLines);
+
+    /**
+     * Gets the alignment of the font.
+     * @return The alignment of the font.
+     */
+    TextAlignment getAlignment();
+
+    /**
+     * Sets the alignment of the font.
+     * @param alignment The alignment of the font.
+     */
+    void setAlignment(TextAlignment alignment);
+
+    /**
+     * Gets the max line width of the font.
+     * @return The max line width of the font.
+     */
+    int getMaxLineWidth();
+
+    /**
+     * Sets the max line width of the font.
+     * @param maxWidth The max line width of the font.
+     * @return The max line width of the font.
+     */
+    int setMaxLineWidth(int maxWidth);
 
 }

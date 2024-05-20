@@ -1,6 +1,5 @@
 package me.m64diamondstar.dialoguemaster.api.design;
 
-import me.m64diamondstar.dialoguemaster.api.design.font.DMFontConfig;
 import me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedFont;
 import me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedWidget;
 import me.m64diamondstar.dialoguemaster.api.utils.exceptions.InvalidFontUrlException;
@@ -53,6 +52,13 @@ public interface DMDesignManager {
      * @return True if the design was successfully deleted, false otherwise.
      */
     boolean deleteDesign(@NotNull String name);
+
+    /**
+     * Gets all the designs.
+     *
+     * @return A list with all the designs.
+     */
+    List<DMDesign> getDesigns();
 
     /**
      * Gets a widget with a specific name.
@@ -177,5 +183,13 @@ public interface DMDesignManager {
      * @return True if the font configuration was successfully deleted, false otherwise.
      */
     boolean deleteFontConfig(@NotNull String name);
+
+
+    /**
+     * Gets a list of all font configuration paths.
+     *
+     * @return A list of all font configuration paths.
+     */
+    List<DMFontConfig> getFontConfigs();
 
 }
