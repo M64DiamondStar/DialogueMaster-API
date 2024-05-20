@@ -80,7 +80,7 @@ loadScripts(document, 'script');</script>
 <dd>
 <ul class="see-list">
 <li><a href="DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design"><code>DMDesign</code></a></li>
-<li><a href="font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font"><code>DMFontConfig</code></a></li>
+<li><a href="DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design"><code>DMFontConfig</code></a></li>
 <li><a href="imports/DMImportedFont.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports"><code>DMImportedFont</code></a></li>
 <li><a href="imports/DMImportedWidget.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports"><code>DMImportedWidget</code></a></li>
 </ul>
@@ -105,7 +105,7 @@ loadScripts(document, 'script');</script>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Creates a new design with a specific name.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#createFontConfig(java.lang.String)" class="member-name-link">createFontConfig</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Creates a new font configuration with a specific name.</div>
@@ -167,15 +167,25 @@ loadScripts(document, 'script');</script>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Gets a design with a specific name.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="imports/DMImportedFont.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedFont</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFont(java.lang.String)" class="member-name-link">getFont</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getDesigns()" class="member-name-link">getDesigns</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Gets all the designs.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="imports/DMImportedFont.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedFont</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFont(java.lang.String)" class="member-name-link">getFont</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Gets a font with a specific name.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFontConfig(java.lang.String)" class="member-name-link">getFontConfig</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFontConfig(java.lang.String)" class="member-name-link">getFontConfig</a><wbr>(@NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Gets a font configuration with a specific name.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFontConfigs()" class="member-name-link">getFontConfigs</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Gets a list of all font configuration paths.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#getFontPaths()" class="member-name-link">getFontPaths</a>()</code></div>
@@ -261,6 +271,17 @@ loadScripts(document, 'script');</script>
 <dd><code>name</code> - The name of the design.</dd>
 <dt>Returns:</dt>
 <dd>True if the design was successfully deleted, false otherwise.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getDesigns()">
+<h3>getDesigns</h3>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a>&gt;</span>&nbsp;<span class="element-name">getDesigns</span>()</div>
+<div class="block">Gets all the designs.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>A list with all the designs.</dd>
 </dl>
 </section>
 </li>
@@ -422,7 +443,7 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="getFontConfig(java.lang.String)">
 <h3>getFontConfig</h3>
 <div class="member-signature"><span class="annotations">@Nullable
-</span><span class="return-type"><a href="font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></span>&nbsp;<span class="element-name">getFontConfig</span><wbr><span class="parameters">(@NotNull
+</span><span class="return-type"><a href="DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></span>&nbsp;<span class="element-name">getFontConfig</span><wbr><span class="parameters">(@NotNull
  @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
 <div class="block">Gets a font configuration with a specific name.</div>
 <dl class="notes">
@@ -450,7 +471,7 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="createFontConfig(java.lang.String)">
 <h3>createFontConfig</h3>
-<div class="member-signature"><span class="return-type"><a href="font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></span>&nbsp;<span class="element-name">createFontConfig</span><wbr><span class="parameters">(@NotNull
+<div class="member-signature"><span class="return-type"><a href="DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></span>&nbsp;<span class="element-name">createFontConfig</span><wbr><span class="parameters">(@NotNull
  @NotNull <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
 <div class="block">Creates a new font configuration with a specific name.
  If a font config with this name already exists it will be overwritten!</div>
@@ -473,6 +494,17 @@ loadScripts(document, 'script');</script>
 <dd><code>name</code> - The name of the font configuration.</dd>
 <dt>Returns:</dt>
 <dd>True if the font configuration was successfully deleted, false otherwise.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getFontConfigs()">
+<h3>getFontConfigs</h3>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a>&gt;</span>&nbsp;<span class="element-name">getFontConfigs</span>()</div>
+<div class="block">Gets a list of all font configuration paths.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>A list of all font configuration paths.</dd>
 </dl>
 </section>
 </li>

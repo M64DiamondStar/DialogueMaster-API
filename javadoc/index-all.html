@@ -49,7 +49,14 @@ loadScripts(document, 'script');</script>
 <div class="header">
 <h1>Index</h1>
 </div>
-<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a>
+<a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a>
+<h2 class="title" id="I:A">A</h2>
+<dl class="index">
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#addWidget(me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedWidget,int,int,int)" class="member-name-link">addWidget(DMImportedWidget, int, int, int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Adds a widget with the lowest unused index, so it will be displayed on top.</div>
+</dd>
+</dl>
 <h2 class="title" id="I:B">B</h2>
 <dl class="index">
 <dt><a href="me/m64diamondstar/dialoguemaster/api/messages/DMMessageUtils.Color.html#BACKGROUND" class="member-name-link">BACKGROUND</a> - Enum constant in enum class me.m64diamondstar.dialoguemaster.api.messages.<a href="me/m64diamondstar/dialoguemaster/api/messages/DMMessageUtils.Color.html" title="enum class in me.m64diamondstar.dialoguemaster.api.messages">DMMessageUtils.Color</a></dt>
@@ -57,6 +64,8 @@ loadScripts(document, 'script');</script>
 </dl>
 <h2 class="title" id="I:C">C</h2>
 <dl class="index">
+<dt><a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html#CENTER" class="member-name-link">CENTER</a> - Enum constant in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">TextAlignment</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/PluginHook.html#CITIZENS" class="member-name-link">CITIZENS</a> - Enum constant in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/PluginHook.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">PluginHook</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html#createDesign(java.lang.String)" class="member-name-link">createDesign(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></dt>
@@ -119,7 +128,7 @@ loadScripts(document, 'script');</script>
 <div class="block">With this class you can create, edit and delete designs,
  font configurations, imported fonts and widgets.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a> - Interface in <a href="me/m64diamondstar/dialoguemaster/api/design/font/package-summary.html">me.m64diamondstar.dialoguemaster.api.design.font</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" class="type-name-link" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a> - Interface in <a href="me/m64diamondstar/dialoguemaster/api/design/package-summary.html">me.m64diamondstar.dialoguemaster.api.design</a></dt>
 <dd>
 <div class="block">Represents a font configuration.</div>
 </dd>
@@ -194,8 +203,28 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Gets a list of all the active plugin hooks: all the plugins that DialogueMaster can interact with.</div>
 </dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getAlignment()" class="member-name-link">getAlignment()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
+<dd>
+<div class="block">Gets the alignment of the font.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/handler/DMAPIHandler.html#getApi()" class="member-name-link">getApi()</a> - Method in class me.m64diamondstar.dialoguemaster.api.handler.<a href="me/m64diamondstar/dialoguemaster/api/handler/DMAPIHandler.html" title="class in me.m64diamondstar.dialoguemaster.api.handler">DMAPIHandler</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getBackground()" class="member-name-link">getBackground()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the background of the design.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getBackgroundHeight()" class="member-name-link">getBackgroundHeight()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the height of the background.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getBackgroundXOffset()" class="member-name-link">getBackgroundXOffset()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the x offset of the background.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getBackgroundYOffset()" class="member-name-link">getBackgroundYOffset()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the y offset of the background.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/commands/DMSubCommand.html#getDescription()" class="member-name-link">getDescription()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.commands.<a href="me/m64diamondstar/dialoguemaster/api/commands/DMSubCommand.html" title="interface in me.m64diamondstar.dialoguemaster.api.commands">DMSubCommand</a></dt>
 <dd>
 <div class="block">The description of the subcommand.</div>
@@ -208,9 +237,13 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Gets the design manager, with this class you can create, edit and delete designs, font configurations and widgets.</div>
 </dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html#getDesigns()" class="member-name-link">getDesigns()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></dt>
+<dd>
+<div class="block">Gets all the designs.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/PluginHook.html#getDisplayName()" class="member-name-link">getDisplayName()</a> - Method in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/PluginHook.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">PluginHook</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#getFamily()" class="member-name-link">getFamily()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getFamily()" class="member-name-link">getFamily()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Gets the family of the font.</div>
 </dd>
@@ -229,6 +262,10 @@ loadScripts(document, 'script');</script>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html#getFontConfig(java.lang.String)" class="member-name-link">getFontConfig(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></dt>
 <dd>
 <div class="block">Gets a font configuration with a specific name.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html#getFontConfigs()" class="member-name-link">getFontConfigs()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></dt>
+<dd>
+<div class="block">Gets a list of all font configuration paths.</div>
 </dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/FontUtils.html#getFontFormatFromUrl(java.lang.String)" class="member-name-link">getFontFormatFromUrl(String)</a> - Static method in class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/FontUtils.html" title="class in me.m64diamondstar.dialoguemaster.api.utils">FontUtils</a></dt>
 <dd>
@@ -258,8 +295,18 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/handler/DMAPIHandler.html#getInstance()" class="member-name-link">getInstance()</a> - Static method in class me.m64diamondstar.dialoguemaster.api.handler.<a href="me/m64diamondstar/dialoguemaster/api/handler/DMAPIHandler.html" title="class in me.m64diamondstar.dialoguemaster.api.handler">DMAPIHandler</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#getLineSpacing()" class="member-name-link">getLineSpacing()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
-<dd>&nbsp;</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getLineSpacing()" class="member-name-link">getLineSpacing()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
+<dd>
+<div class="block">Gets the line spacing of the font.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getMaxLines()" class="member-name-link">getMaxLines()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
+<dd>
+<div class="block">Gets the max lines of the font.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getMaxLineWidth()" class="member-name-link">getMaxLineWidth()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
+<dd>
+<div class="block">Gets the max line width of the font.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/DialogueMasterAPI.html#getMessageUtils()" class="member-name-link">getMessageUtils()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.<a href="me/m64diamondstar/dialoguemaster/api/DialogueMasterAPI.html" title="interface in me.m64diamondstar.dialoguemaster.api">DialogueMasterAPI</a></dt>
 <dd>
 <div class="block">Gets the message utils.</div>
@@ -272,7 +319,7 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Gets the name of the design.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#getName()" class="member-name-link">getName()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getName()" class="member-name-link">getName()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Gets the name of this font configuration.</div>
 </dd>
@@ -280,11 +327,17 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/imports/DMImportedWidget.html#getName()" class="member-name-link">getName()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.imports.<a href="me/m64diamondstar/dialoguemaster/api/design/imports/DMImportedWidget.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedWidget</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#getOversample()" class="member-name-link">getOversample()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getOptionsFontConfig()" class="member-name-link">getOptionsFontConfig()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">The font config used to display dialogue options.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getOversample()" class="member-name-link">getOversample()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Gets the oversample of the font.</div>
 </dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/ServerVersion.html#getPackFormat()" class="member-name-link">getPackFormat()</a> - Method in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/ServerVersion.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">ServerVersion</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html#getPackFormat()" class="member-name-link">getPackFormat()</a> - Method in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">TextAlignment</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/DialogueMasterAPI.html#getPluginLogger()" class="member-name-link">getPluginLogger()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.<a href="me/m64diamondstar/dialoguemaster/api/DialogueMasterAPI.html" title="interface in me.m64diamondstar.dialoguemaster.api">DialogueMasterAPI</a></dt>
 <dd>
@@ -314,7 +367,7 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Gets the short prefix string of the plugin without deserialization.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#getSize()" class="member-name-link">getSize()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getSize()" class="member-name-link">getSize()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Gets the size of the font.</div>
 </dd>
@@ -334,20 +387,44 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">The usage of the subcommand.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#getVerticalShift()" class="member-name-link">getVerticalShift()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#getVerticalShift()" class="member-name-link">getVerticalShift()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Gets the vertical shift of the font.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getWidget(int)" class="member-name-link">getWidget(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets a widget with a specific index.</div>
 </dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html#getWidget(java.lang.String)" class="member-name-link">getWidget(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></dt>
 <dd>
 <div class="block">Gets a widget with a specific name.</div>
 </dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getWidgetHeight(int)" class="member-name-link">getWidgetHeight(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the height of a widget.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getWidgetIndexes()" class="member-name-link">getWidgetIndexes()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the indexes of all the widgets in the design.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html#getWidgetPaths()" class="member-name-link">getWidgetPaths()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesignManager.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesignManager</a></dt>
 <dd>
 <div class="block">Gets a list of all widget paths.</div>
 </dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getWidgetXOffset(int)" class="member-name-link">getWidgetXOffset(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the x offset of a widget.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getWidgetYOffset(int)" class="member-name-link">getWidgetYOffset(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the y offset of a widget.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/imports/DMImportedWidget.html#getWidth()" class="member-name-link">getWidth()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.imports.<a href="me/m64diamondstar/dialoguemaster/api/design/imports/DMImportedWidget.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.imports">DMImportedWidget</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#getXOffset()" class="member-name-link">getXOffset()</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Gets the x offset of the whole design.</div>
+</dd>
 </dl>
 <h2 class="title" id="I:H">H</h2>
 <dl class="index">
@@ -366,6 +443,10 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/handler/DMAPIHandler.html#init(me.m64diamondstar.dialoguemaster.api.DialogueMasterAPI)" class="member-name-link">init(DialogueMasterAPI)</a> - Static method in class me.m64diamondstar.dialoguemaster.api.handler.<a href="me/m64diamondstar/dialoguemaster/api/handler/DMAPIHandler.html" title="class in me.m64diamondstar.dialoguemaster.api.handler">DMAPIHandler</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#insertWidget(int,me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedWidget,int,int,int)" class="member-name-link">insertWidget(int, DMImportedWidget, int, int, int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Inserts a widget at a specific index, adding one value to the ones after it.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/exceptions/InvalidFontUrlException.html" class="type-name-link" title="class in me.m64diamondstar.dialoguemaster.api.utils.exceptions">InvalidFontUrlException</a> - Exception in <a href="me/m64diamondstar/dialoguemaster/api/utils/exceptions/package-summary.html">me.m64diamondstar.dialoguemaster.api.utils.exceptions</a></dt>
 <dd>
 <div class="block">This exception is thrown when an error occurs while
@@ -409,6 +490,11 @@ loadScripts(document, 'script');</script>
 <div class="block">Checks if a url is valid.</div>
 </dd>
 </dl>
+<h2 class="title" id="I:L">L</h2>
+<dl class="index">
+<dt><a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html#LEFT" class="member-name-link">LEFT</a> - Enum constant in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">TextAlignment</a></dt>
+<dd>&nbsp;</dd>
+</dl>
 <h2 class="title" id="I:M">M</h2>
 <dl class="index">
 <dt><a href="me/m64diamondstar/dialoguemaster/api/package-summary.html">me.m64diamondstar.dialoguemaster.api</a> - package me.m64diamondstar.dialoguemaster.api</dt>
@@ -420,8 +506,6 @@ loadScripts(document, 'script');</script>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/conversation/additions/package-summary.html">me.m64diamondstar.dialoguemaster.api.conversation.additions</a> - package me.m64diamondstar.dialoguemaster.api.conversation.additions</dt>
 <dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/package-summary.html">me.m64diamondstar.dialoguemaster.api.design</a> - package me.m64diamondstar.dialoguemaster.api.design</dt>
-<dd>&nbsp;</dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/package-summary.html">me.m64diamondstar.dialoguemaster.api.design.font</a> - package me.m64diamondstar.dialoguemaster.api.design.font</dt>
 <dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/imports/package-summary.html">me.m64diamondstar.dialoguemaster.api.design.imports</a> - package me.m64diamondstar.dialoguemaster.api.design.imports</dt>
 <dd>&nbsp;</dd>
@@ -435,6 +519,10 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/PluginHook.html#MODELENGINE" class="member-name-link">MODELENGINE</a> - Enum constant in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/PluginHook.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">PluginHook</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#moveWidget(int,int)" class="member-name-link">moveWidget(int, int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Move a widget from one index to another.</div>
+</dd>
 </dl>
 <h2 class="title" id="I:P">P</h2>
 <dl class="index">
@@ -463,12 +551,18 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Registers a subcommand.</div>
 </dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#removeWidget(int,boolean)" class="member-name-link">removeWidget(int, boolean)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Removes a widget with a specific index.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/exceptions/ResourcepackGenerateException.html" class="type-name-link" title="class in me.m64diamondstar.dialoguemaster.api.utils.exceptions">ResourcepackGenerateException</a> - Exception in <a href="me/m64diamondstar/dialoguemaster/api/utils/exceptions/package-summary.html">me.m64diamondstar.dialoguemaster.api.utils.exceptions</a></dt>
 <dd>
 <div class="block">This exception is thrown when an error occurs while generating a resourcepack
  for the DialogueMaster plugin.</div>
 </dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/exceptions/ResourcepackGenerateException.html#%3Cinit%3E(java.lang.String)" class="member-name-link">ResourcepackGenerateException(String)</a> - Constructor for exception me.m64diamondstar.dialoguemaster.api.utils.exceptions.<a href="me/m64diamondstar/dialoguemaster/api/utils/exceptions/ResourcepackGenerateException.html" title="class in me.m64diamondstar.dialoguemaster.api.utils.exceptions">ResourcepackGenerateException</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html#RIGHT" class="member-name-link">RIGHT</a> - Enum constant in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">TextAlignment</a></dt>
 <dd>&nbsp;</dd>
 </dl>
 <h2 class="title" id="I:S">S</h2>
@@ -525,29 +619,63 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">All the Minecraft versions that DialogueMaster currently supports.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#setFamily(java.lang.String)" class="member-name-link">setFamily(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setAlignment(me.m64diamondstar.dialoguemaster.api.utils.TextAlignment)" class="member-name-link">setAlignment(TextAlignment)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
+<dd>
+<div class="block">Sets the alignment of the font.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setBackground(me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedWidget)" class="member-name-link">setBackground(DMImportedWidget)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the background of the design.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setBackgroundHeight(int)" class="member-name-link">setBackgroundHeight(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the height of the background, this determines the total size of it.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setBackgroundXOffset(int)" class="member-name-link">setBackgroundXOffset(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the x offset of the background.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setBackgroundYOffset(int)" class="member-name-link">setBackgroundYOffset(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the y offset of the background.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setFamily(java.lang.String)" class="member-name-link">setFamily(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Sets the family of the font.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setFontConfig(java.lang.String)" class="member-name-link">setFontConfig(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setFontConfig(me.m64diamondstar.dialoguemaster.api.design.DMFontConfig)" class="member-name-link">setFontConfig(DMFontConfig)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
 <dd>
 <div class="block">Sets the font configuration of the design.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setFontConfig(me.m64diamondstar.dialoguemaster.api.design.font.DMFontConfig)" class="member-name-link">setFontConfig(DMFontConfig)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setImportedWidget(int,me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedWidget)" class="member-name-link">setImportedWidget(int, DMImportedWidget)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
 <dd>
-<div class="block">Sets the font configuration of the design.</div>
+<div class="block">Sets an imported widget with a specific index.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#setLineSpacing(float)" class="member-name-link">setLineSpacing(float)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
-<dd>&nbsp;</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setLineSpacing(float)" class="member-name-link">setLineSpacing(float)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
+<dd>
+<div class="block">Sets the line spacing of the font.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setMaxLines(int)" class="member-name-link">setMaxLines(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
+<dd>
+<div class="block">Sets the max lines of the font.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setMaxLineWidth(int)" class="member-name-link">setMaxLineWidth(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
+<dd>
+<div class="block">Sets the max line width of the font.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setName(java.lang.String)" class="member-name-link">setName(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
 <dd>
 <div class="block">Sets the name of the font configuration.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#setName(java.lang.String)" class="member-name-link">setName(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setName(java.lang.String)" class="member-name-link">setName(String)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Sets the name of the font configuration.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#setOversample(int)" class="member-name-link">setOversample(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setOptionsFontConfig(me.m64diamondstar.dialoguemaster.api.design.DMFontConfig)" class="member-name-link">setOptionsFontConfig(DMFontConfig)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the font config used to display dialogue options.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setOversample(int)" class="member-name-link">setOversample(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Sets the oversample of the font.</div>
 </dd>
@@ -559,19 +687,41 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Sets the name of the image.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#setSize(int)" class="member-name-link">setSize(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setSize(int)" class="member-name-link">setSize(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
 <div class="block">Sets the size of the font.</div>
 </dd>
-<dt><a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html#setVerticalShift(float)" class="member-name-link">setVerticalShift(float)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.font.<a href="me/m64diamondstar/dialoguemaster/api/design/font/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design.font">DMFontConfig</a></dt>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html#setVerticalShift(float)" class="member-name-link">setVerticalShift(float)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMFontConfig.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMFontConfig</a></dt>
 <dd>
-<div class="block">Sets the vertical shift of the font.</div>
+<div class="block">Sets the vertical shift of the font.This is the vertical shift of the first line.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setWidget(int,me.m64diamondstar.dialoguemaster.api.design.imports.DMImportedWidget,int,int,int)" class="member-name-link">setWidget(int, DMImportedWidget, int, int, int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets a widget with a specific index.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setWidgetHeight(int,int)" class="member-name-link">setWidgetHeight(int, int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the height of a widget.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setWidgetXOffset(int,int)" class="member-name-link">setWidgetXOffset(int, int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the x offset of a widget.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setWidgetYOffset(int,int)" class="member-name-link">setWidgetYOffset(int, int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the y offset of a widget.</div>
+</dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html#setXOffset(int)" class="member-name-link">setXOffset(int)</a> - Method in interface me.m64diamondstar.dialoguemaster.api.design.<a href="me/m64diamondstar/dialoguemaster/api/design/DMDesign.html" title="interface in me.m64diamondstar.dialoguemaster.api.design">DMDesign</a></dt>
+<dd>
+<div class="block">Sets the x offset of the whole design.</div>
 </dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/messages/DMMessageUtils.Color.html#SUCCESS" class="member-name-link">SUCCESS</a> - Enum constant in enum class me.m64diamondstar.dialoguemaster.api.messages.<a href="me/m64diamondstar/dialoguemaster/api/messages/DMMessageUtils.Color.html" title="enum class in me.m64diamondstar.dialoguemaster.api.messages">DMMessageUtils.Color</a></dt>
 <dd>&nbsp;</dd>
 </dl>
 <h2 class="title" id="I:T">T</h2>
 <dl class="index">
+<dt><a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html" class="type-name-link" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">TextAlignment</a> - Enum Class in <a href="me/m64diamondstar/dialoguemaster/api/utils/package-summary.html">me.m64diamondstar.dialoguemaster.api.utils</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/utils/Pair.html#toString()" class="member-name-link">toString()</a> - Method in record class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/Pair.html" title="class in me.m64diamondstar.dialoguemaster.api.utils">Pair</a></dt>
 <dd>
 <div class="block">Returns a string representation of this record class.</div>
@@ -646,6 +796,10 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Returns the enum constant of this class with the specified name.</div>
 </dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html#valueOf(java.lang.String)" class="member-name-link">valueOf(String)</a> - Static method in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">TextAlignment</a></dt>
+<dd>
+<div class="block">Returns the enum constant of this class with the specified name.</div>
+</dd>
 <dt><a href="me/m64diamondstar/dialoguemaster/api/messages/DMMessageUtils.Color.html#values()" class="member-name-link">values()</a> - Static method in enum class me.m64diamondstar.dialoguemaster.api.messages.<a href="me/m64diamondstar/dialoguemaster/api/messages/DMMessageUtils.Color.html" title="enum class in me.m64diamondstar.dialoguemaster.api.messages">DMMessageUtils.Color</a></dt>
 <dd>
 <div class="block">Returns an array containing the constants of this enum class, in
@@ -661,8 +815,13 @@ the order they are declared.</div>
 <div class="block">Returns an array containing the constants of this enum class, in
 the order they are declared.</div>
 </dd>
+<dt><a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html#values()" class="member-name-link">values()</a> - Static method in enum class me.m64diamondstar.dialoguemaster.api.utils.<a href="me/m64diamondstar/dialoguemaster/api/utils/TextAlignment.html" title="enum class in me.m64diamondstar.dialoguemaster.api.utils">TextAlignment</a></dt>
+<dd>
+<div class="block">Returns an array containing the constants of this enum class, in
+the order they are declared.</div>
+</dd>
 </dl>
-<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a></main>
+<a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a></main>
 </div>
 </div>
 </body>

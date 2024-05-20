@@ -3,7 +3,6 @@ me.m64diamondstar.dialoguemaster.api.commands
 me.m64diamondstar.dialoguemaster.api.conversation
 me.m64diamondstar.dialoguemaster.api.conversation.additions
 me.m64diamondstar.dialoguemaster.api.design
-me.m64diamondstar.dialoguemaster.api.design.font
 me.m64diamondstar.dialoguemaster.api.design.imports
 me.m64diamondstar.dialoguemaster.api.handler
 me.m64diamondstar.dialoguemaster.api.messages
